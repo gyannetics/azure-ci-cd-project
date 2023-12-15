@@ -17,7 +17,7 @@ def get_requirements(file_path:str)->List[str]:
     return requirements
 
 setup(
-name='awscicdproject',
+name='azurecicdproject',
 version='0.0.1',
 author='Santosh',
 author_email='gyannetics@gmail.com',
