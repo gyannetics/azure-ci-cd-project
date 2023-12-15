@@ -1,7 +1,7 @@
 ## End to End Machine Learning Project on Azure with CI/CD
 
-docker build -t testdockerkrish.azurecr.io/mltest:latest .
+docker build -t studentperformancedkr.azurecr.io/studentperf:latest .
 
-docker login testdockerkrish.azurecr.io
+docker login studentperformancedkr.azurecr.io
 
-docker push testdockerkrish.azurecr.io/mltest:latest
+docker push studentperformancedkr.azurecr.io/studentperf:latest
