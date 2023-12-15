@@ -1,10 +1,9 @@
-## End to End Machine Learning Project on AWS with Ci/CD
+## End to End Machine Learning Project on Azure with CI/CD
 
 1. Docker Build checked
 2. Github Workflow
-3. IAM User In AWS
 
-## Docker Setup In EC2 commands to be Executed
+## Docker Setup In Azure commands to be executed
 
 #Optional
 
@@ -22,8 +21,5 @@
 - run the `New self-hosted runner` from `Settings` in the repository.
 - 
 ## Setup github secrets:
-AWS_ACCESS_KEY_ID=
-AWS_SECRET_ACCESS_KEY=
-AWS_REGION = us-east-1
-AWS_ECR_LOGIN_URI = 106206485900.dkr.ecr.us-east-1.amazonaws.com
-ECR_REPOSITORY_NAME = studentperf
+
+
