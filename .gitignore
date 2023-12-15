@@ -111,6 +111,8 @@ env.bak/
 venv.bak/
 aws-ci-cd/
 logs/
+catboost_info/
+
 # Spyder project settings
 .spyderproject
 .spyproject
