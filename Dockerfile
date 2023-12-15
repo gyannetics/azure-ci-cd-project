@@ -1,27 +1,10 @@
-FROM python:3.9-alpine
+FROM python:3.8-slim-buster
 
 WORKDIR /app
 COPY . /app
 
-# Install build dependencies
-RUN apk update && \
-    apk add --no-cache \
-        build-base \
-        python3-dev \
-        libffi-dev \
-        musl-dev \
-        gcc \
-        g++ \
-        openblas-dev \
-        cmake \
-        libxext \
-        libxrender \
-        gfortran \
-        blas \
-        blas-dev \
-    && apk add --no-cache aws-cli ffmpeg \
-    && pip install --no-cache-dir -r requirements.txt \
-    && apk del build-base python3-dev libffi-dev musl-dev gcc g++ gfortran blas-dev \
-    && rm -rf /var/lib/apt/lists/*
+RUN apt update -y
+
+RUN apt-get update && pip install -r requirements.txt
 
 CMD ["python3", "application.py"]
