@@ -1,4 +1,4 @@
-## End to End MAchine Learning Project
+## End to End Machine Learning Project on AWS with Ci/CD
 
 1. Docker Build checked
 2. Github Workflow
