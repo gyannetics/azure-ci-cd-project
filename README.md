@@ -2,25 +2,25 @@
 
 1. Docker Build checked
 2. Github Workflow
-3. Iam User In AWS
+3. IAM User In AWS
 
 ## Docker Setup In EC2 commands to be Executed
 
 #optional
 
-sudo apt-get update -y
+`sudo apt-get update -y`
 
-sudo apt-get upgrade
+`sudo apt-get upgrade`
 
 #required
 
-curl -fsSL https://get.docker.com -o get-docker.sh
+`curl -fsSL https://get.docker.com -o get-docker.sh`
 
-sudo sh get-docker.sh
+`sudo sh get-docker.sh`
 
-sudo usermod -aG docker ubuntu
+`sudo usermod -aG docker ubuntu`
 
-newgrp docker
+`newgrp docker`
 
 ## Configure EC2 as self-hosted runner:
 
