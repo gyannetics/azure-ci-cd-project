@@ -111,7 +111,7 @@ env.bak/
 venv.bak/
 aws-ci-cd/
 logs/
-catboost_info/
+
 
 # Spyder project settings
 .spyderproject
@@ -131,4 +131,4 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-mlproject.egg-info
+catboost_info/
