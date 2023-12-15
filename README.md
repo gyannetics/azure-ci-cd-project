@@ -1,25 +1,7 @@
 ## End to End Machine Learning Project on Azure with CI/CD
 
-1. Docker Build checked
-2. Github Workflow
+docker build -t testdockerkrish.azurecr.io/mltest:latest .
 
-## Docker Setup In Azure commands to be executed
+docker login testdockerkrish.azurecr.io
 
-#Optional
-
-`sudo apt-get update -y`
-`sudo apt-get upgrade`
-
-#Required
-
-`curl -fsSL https://get.docker.com -o get-docker.sh`
-`sudo sh get-docker.sh`
-`sudo usermod -aG docker ubuntu`
-`newgrp docker`
-
-## Configure EC2 as self-hosted runner:
-- run the `New self-hosted runner` from `Settings` in the repository.
-- 
-## Setup github secrets:
-
-
+docker push testdockerkrish.azurecr.io/mltest:latest
