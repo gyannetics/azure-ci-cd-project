@@ -19,7 +19,7 @@
 `newgrp docker`
 
 ## Configure EC2 as self-hosted runner:
-- run the `Mew self-hosted runner` from `Settings` in the repository.
+- run the `New self-hosted runner` from `Settings` in the repository.
 - 
 ## Setup github secrets:
 AWS_ACCESS_KEY_ID=
