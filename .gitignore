@@ -110,7 +110,7 @@ ENV/
 env.bak/
 venv.bak/
 aws-ci-cd/
-
+logs/
 # Spyder project settings
 .spyderproject
 .spyproject
